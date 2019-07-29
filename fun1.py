@@ -1,5 +1,7 @@
-total = 0
-for number in range(1, 10 + 1):
-    print(number)
-    total = total + number
-print(total)
+def add_numbers(start,end):
+    total=0
+    for i in range(start,end+1):
+        total+=i
+    return(total)
+#print(add_numbers(1000,5000))
+
